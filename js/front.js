@@ -3,7 +3,7 @@ $(document).ready(function () {
 	// ------------------------------------------------------- //
     // Fetch Facebook Data
     // ------------------------------------------------------ //
-	var myFacebookToken = 'EAACEdEose0cBAOqniZCSPhSYhWYZAmP6z7u3ZCyuHeBka6BuXs5OQ589Scsk7zwcQioExg9a1QcDrQJPvJFSh7rz0tJBkJgI5g666l8vLpdrmrpfQjwzZBOgYKBZAr2k63Js9XtVCbn1oWAvo240zOsMEl0eSi7Ozqx6klDjnO1p7vdSqtLno14ajliZCece5UrrwUc7iD8wZDZD';
+	var myFacebookToken = 'EAACEdEose0cBAGqCC2ZBPlfIbS5zzeut3qmyQpdMBBrruN2FZAbG0DJJ8cQXZBCvXHRhlQ6e9fmX64PeIMSQPSlCEsEUJRjtUOu2CGQ03SeWtkL3ehndjuZBVQunYw0v08ZCFcMqgNuw8ZBZBv2DzNLTC3sj8Q2m0ZAUC6FInlZAIKrqcEr78yqb38oeLa8izjrVvCH7wmUnpfQZDZD';
 
          $.ajax('https://graph.facebook.com/me?fields=name,gender,cover,picture.type(large),education,email,hometown,location,birthday&access_token='+myFacebookToken,{
 
