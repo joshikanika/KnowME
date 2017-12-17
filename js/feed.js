@@ -46,7 +46,7 @@ $(document).ready(function () {
                     console.log(response);
                     //post1
                     $("#story1").text(response.data[0].story);
-                    var createdate1 = new Date(response.data[0].created_time);
+                    var createdate1 = new Date(response.data[0].created_time.replace("+0000",".000Z"));
                     var createdateString1 = createdate1.toString();
                     var createDateTime1 =  createdateString1.split(' ');
                     var postDate1 = createDateTime1[1] + " " + createDateTime1[2] + " " + createDateTime1[3];                  
@@ -73,7 +73,7 @@ $(document).ready(function () {
 
                     //post2
                     $("#story2").text(response.data[1].story);
-                    var createdate2 = new Date(response.data[1].created_time);
+                    var createdate2 = new Date(response.data[1].created_time.replace("+0000",".000Z"));
                     var createdateString2 = createdate2.toString();
                     var createDateTime2 =  createdateString2.split(' ');
                     var postDate2 = createDateTime2[1] + " " + createDateTime2[2] + " " + createDateTime2[3];                  
@@ -101,7 +101,7 @@ $(document).ready(function () {
 
                     //post3
                     $("#story3").text(response.data[2].story);
-                    var createdate3 = new Date(response.data[2].created_time);
+                    var createdate3 = new Date(response.data[2].created_time.replace("+0000",".000Z"));
                     var createdateString3 = createdate3.toString();
                     var createDateTime3 =  createdateString3.split(' ');
                     var postDate3 = createDateTime3[1] + " " + createDateTime3[2] + " " + createDateTime3[3];                  
@@ -129,7 +129,7 @@ $(document).ready(function () {
 
                     //post4
                     $("#story4").text(response.data[3].story);
-                    var createdate4 = new Date(response.data[3].created_time);
+                    var createdate4 = new Date(response.data[3].created_time.replace("+0000",".000Z"));
                     var createdateString4 = createdate4.toString();
                     var createDateTime4 =  createdateString4.split(' ');
                     var postDate4 = createDateTime4[1] + " " + createDateTime4[2] + " " + createDateTime4[3];                  
