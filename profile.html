@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KnowME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+   </head>
+  <body>
+      <!-- Main Navbar-->
+      	<nav class="navbar navbar-inverse navbar-static-top">
+        		<div class="container"> 		
+              	<!-- Navbar Brand -->
+                <div class="navbar-header">
+              	<a href="profile.html" class="navbar-brand">
+               		<strong>KnowMe</strong>
+              	</a>                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-bar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="main-nav-bar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="active"><a href="profile.html">Profile</a></li>
+                  </ul>
+          		  </div>
+            </div>
+      	</nav>
+
+      	<div class="container">
+	      	<div class="row">
+  	      		<div class="side-navbar col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <!-- Profile picture -->
+  	      				<img id="profile-pic" alt="Profile picture" class="img-thumbnail">
+                  <p id="name"></p>
+                  <p id="location"></p>
+  	      				<ul class="list-unstyled">
+  	      					<li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+  	      					<li class="active"><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Profile</a></li>
+  	      				</ul>
+  	      		</div>
+  	      		<div class="content-inner col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- Cover picture -->
+                <img class="cover" alt="Cover picture"></img>
+  		        </div>
+          </div>
+          <div class="row">
+            <div class="about col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- User Info -->
+                <div id="gender" class="details col-md-12"><i class="fa fa-star" aria-hidden="true"></i></div>
+                <div id="email" class="details col-md-12"><i class="fa fa-envelope" aria-hidden="true"></i></i></div>
+                <div id="birthday" class="details col-md-12"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
+                <div id="hometown" class="details col-md-12"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+    <!-- Javascript files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+ </html>

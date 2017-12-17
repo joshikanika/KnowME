@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KnowME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+   </head>
+  <body>
+      <!-- Main Navbar-->
+      	<nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">     
+                <!-- Navbar Brand -->
+                <div class="navbar-header">
+                <a href="profile.html" class="navbar-brand">
+                  <strong>KnowMe</strong>
+                </a>                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-bar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="main-nav-bar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+      	<div class="container">
+	      	<div class="row">
+	      		<div class="side-navbar col-lg-4 col-md-4 col-sm-12 col-xs-12" id="home-posts">
+                <!-- Profile picture -->
+	      				<img id="profile-pic" alt="Profile picture" class="img-thumbnail">
+                <p id="name"></p>
+                <p id="location"></p>
+	      				<ul class="list-unstyled">
+	      					<li class="active"><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+	      					<li><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Profile</a></li>
+	      				</ul>
+	      		</div>
+            <!-- List of Posts -->
+	      		<div class="content-inner col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			            <div class="post" id="post1">
+                    <p id = "story1"></p>
+                    <p id="created-time1" class="post-time"></p>
+                    <img id="Img1" alt="Image shared in post" class="post-image">
+                    <p id="desc1"></p>
+                  </div>
+                  <div class="post" id="post2">
+                    <p id = "story2"></p>
+                    <p id="created-time2" class="post-time"></p>
+                    <img id="Img2" alt="Image shared in post" class="post-image">
+                    <p id="desc2"></p>
+                  </div>
+                  <div class="post" id="post3">
+                    <p id = "story3"></p>
+                    <p id="created-time3" class="post-time"></p>
+                    <img id="Img3" alt="Image shared in post" class="post-image">
+                    <p id="desc3"></p>
+                  </div>
+                  <div class="post" id="post4">
+                    <p id = "story4"></p>
+                    <p id="created-time4" alt="Image shared in post" class="post-time"></p>
+                    <img id="Img4" alt="Image shared in post" class="post-image">
+                    <p id="desc4"></p>
+                  </div>
+		        </div>
+          </div>
+      	</div>
+    <!-- Javascript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+    <script src="js/feed.js"></script>
+  </body>
+ </html>

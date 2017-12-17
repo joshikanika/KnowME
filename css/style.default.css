@@ -1,0 +1,249 @@
+a, i, span {
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus, i:hover, i:focus, span:hover, span:focus {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*
+* ==========================================================
+*     MAIN NAVBAR
+* ==========================================================
+*/
+.navbar {
+  background-color: #ff3b3d;
+  border-color: #ff3b3d;
+  color:white;
+}
+
+.brand-text {
+  color:#fff;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color:#fff;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+  background-color:#f79191;
+}
+
+.navbar-inverse .navbar-brand {
+  color:#fff;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ff3b3d;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #ff3b3d;
+}
+/*
+* ==========================================================
+*     SIDEBAR
+* ==========================================================
+*/
+div.side-navbar {
+  background: #f6f7f9;
+  min-width: 250px;
+  max-width: 250px;
+  color: #ff3b3d;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+ }
+
+ div ul li a {
+  color: inherit;
+  position: relative;
+  font-size: 1em;
+}
+
+div.side-navbar img {
+  margin-top:5%;
+  padding: 2%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+div.side-navbar i {
+  font-size: 1.5em;
+  margin-right: 0.3em;
+  -webkit-transition: none;
+  transition: none;
+}
+
+div.side-navbar ul a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-weight: 300;
+  border-left: 4px solid transparent;
+}
+
+div.side-navbar ul a:hover {
+  background: #c0c7d6;
+  color: #fff;
+}
+
+div.side-navbar ul {
+  padding: 15px 0;
+}
+
+#profile {
+  margin-left: 0.1em;
+}
+
+.side-navbar p {
+  color:#686a76;
+  margin:2%;
+}
+
+#name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#location {
+  font-size: 1em;
+}
+
+.active {
+  background: #ff3b3d;
+  color: #fff;
+}
+
+/*
+* ==========================================================
+*   COVER
+* ==========================================================
+*/
+
+div.content-inner {
+  background: #f6f7f9;
+  color: #686a76;
+  -webkit-box-shadow: 0 0 4px #999;
+  box-shadow: 0 0 4px #999;
+  font-size:1.1em;
+}
+
+.cover {
+  width:100%;
+  height:100%;
+}
+
+/*
+* ==========================================================
+*    POST
+* ==========================================================
+*/
+.post {
+  background: #fff;
+  color: #686a76;
+  -webkit-box-shadow: 0 0 4px #999;
+  box-shadow: 0 0 4px #999;
+  display: block;
+  vertical-align: left;
+  text-align: left;
+  padding:2%;
+  margin:2%;
+}
+
+.post-image {
+  max-height: 50%;
+  max-width: 90%;
+  border: 1px solid #dddddd;
+}
+
+.post-time {
+  font-size:0.9em;
+}
+
+/*
+* ==========================================================
+*    ABOUT
+* ==========================================================
+*/
+.about {
+  background: #f6f7f9;
+  color: #686a76;
+  -webkit-box-shadow: 0 0 4px #999;
+  box-shadow: 0 0 4px #999;
+  text-align: left;
+  padding:1%;
+  margin-top:1%;
+  font-size: 1.1em;
+}
+
+.details {
+  margin:1%;
+  padding:1%;
+}
+
+.details i {
+  margin-right: 2%;
+  color: #ff3b3d;
+}
+
+#gender {
+  text-transform:capitalize;
+}
+
+/*
+* ==========================================================
+*    FOR SMALL DEVICES
+* ==========================================================
+*/
+@media only screen and (max-width: 768px) {
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}
+
+div.side-navbar {
+  min-width: 100%;
+  max-width: 100%;
+  text-align: center;
+ }
+
+div.side-navbar img {
+  margin-top:2%;
+  padding: 2%;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.list-unstyled {
+  display: none;
+}
+
+#home-posts {
+  display: none;
+}
+
+.side-navbar {
+  vertical-align: center;
+}
+
+}
