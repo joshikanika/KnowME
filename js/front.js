@@ -60,8 +60,7 @@ $(document).ready(function () {
                 error : function(request,errorType,errorMessage){
 
                     console.log(request);
-                    console.log(errorType);
-                    alert(errorMessage);
+                    console.log(errorType);             
                 },
 
                 timeout:5000, // in ms
