@@ -27,7 +27,6 @@ $(document).ready(function () {
 
                     console.log(request);
                     console.log(errorType);
-                    alert(errorMessage);
                 },
 
                 timeout:5000, // in ms
@@ -159,7 +158,6 @@ $(document).ready(function () {
 
                     console.log(request);
                     console.log(errorType);
-                    alert(errorMessage);
                 },
 
                 timeout:5000, // in ms
