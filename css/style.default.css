@@ -55,6 +55,11 @@ ul {
 .navbar-inverse .navbar-toggle {
   border-color: #ff3b3d;
 }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #fff;
+}
+
 /*
 * ==========================================================
 *     SIDEBAR
